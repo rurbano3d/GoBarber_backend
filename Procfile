@@ -1,4 +1,2 @@
-web: yarn install
-web: yarn sequelize db:migrate
-web: yarn build
+release: node_modules/.bin/sequelize db:migrate
 web: yarn start
